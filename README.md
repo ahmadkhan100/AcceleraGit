@@ -117,22 +117,22 @@ acceleragit --local-repo ./ --entry-point app.py
 ```
 Expected Output
 
-```less
-
-[bold green]Cloning repository:[/bold green] ./ 
-[bold cyan]Profiling before optimization...[/bold cyan]
+```sql
+Cloning repository: ./
+Profiling before optimization...
 Calculating Fibonacci(35)...
 Result: 9227465
-[bold cyan]Optimizing code...[/bold cyan]
-[bold cyan]Profiling after optimization...[/bold cyan]
+Optimizing code...
+Profiling after optimization...
 Calculating Fibonacci(35)...
 Result: 9227465
 
-┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃ Metric                ┃ Before Optimization  ┃ After Optimization  ┃ Improvement   ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ Total Execution Time  │ 30.4567s             │ 0.0012s             │ 99.99%        │
-└───────────────────────┴──────────────────────┴─────────────────────┴───────────────┘
++-----------------------+----------------------+---------------------+---------------+
+| Metric                | Before Optimization  | After Optimization  | Improvement   |
++-----------------------+----------------------+---------------------+---------------+
+| Total Execution Time  | 30.4567s             | 0.0012s             | 99.99%        |
++-----------------------+----------------------+---------------------+---------------+
+
 
 ```
 
