@@ -56,7 +56,7 @@ AcceleraGit is available on PyPI and can be installed using `pip`:
 pip install acceleragit
 ```
 
-Option 2: Standalone Executable
+### Option 2: Standalone Executable
 Download the standalone executable for your platform from the Releases page
 
 For Windows:
@@ -70,7 +70,7 @@ For macOS/Linux:
 ./acceleragit --help
 ```
 
-Usage
+### Usage
 AcceleraGit provides a simple command-line interface. You can optimize a GitHub repository or a local repository.
 
 Optimizing a GitHub Repository
