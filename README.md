@@ -117,6 +117,8 @@ acceleragit --local-repo ./ --entry-point app.py
 ```
 Expected Output
 
+```less
+
 [bold green]Cloning repository:[/bold green] ./ 
 [bold cyan]Profiling before optimization...[/bold cyan]
 Calculating Fibonacci(35)...
@@ -132,6 +134,7 @@ Result: 9227465
 │ Total Execution Time  │ 30.4567s             │ 0.0012s             │ 99.99%        │
 └───────────────────────┴──────────────────────┴─────────────────────┴───────────────┘
 
+```
 
 How It Works
 Repository Management: AcceleraGit clones the specified GitHub repository or accesses the local repository.
